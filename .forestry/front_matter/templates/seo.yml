@@ -17,4 +17,5 @@ fields:
       format: markdown
   label: Meta Description
 pages:
+- content/about/_index.md
 - content/home-value-request/_index.md

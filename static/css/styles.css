@@ -6,6 +6,10 @@ html {
     -moz-scroll-behavior: smooth;
 }
 
+body {
+    overflow: hidden
+}
+
 div.section {
     padding: 3rem 2rem;
 }
@@ -84,7 +88,6 @@ a.primary-btn {
     word-break: break-all;
     white-space: normal;
     display:block;
-    width: 50%;
 }
 
 .lend-info li {
@@ -344,7 +347,7 @@ a.navbar-link:hover {
         position: absolute;
         left: 0;
         right: 0;
-        top: 0;
+        top: -15px;
         background: black;
         background-size:cover;
         background-repeat: no-repeat;

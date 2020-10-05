@@ -63,3 +63,9 @@ div#ihf-main-container .glyphicon-chevron-left:before,
         display: none;
     }
 }
+
+@media screen and (max-width:768px){
+    div.search {
+        display: none;
+    }
+}

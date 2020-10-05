@@ -50,7 +50,7 @@ sections:
   path: content/about/_index.md
   label: About
 - type: document
-  path: content/contact/_index.md
+  path: content/contact-form/_index.md
   label: Contact
 - type: document
   path: data/pageconfig.yaml

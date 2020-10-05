@@ -681,6 +681,15 @@ div.agent-title-container a {
 
 /* HOME ABOUT */
 
+.about-column div.box {
+    transition: .3s;
+}
+
+.about-column div.box:hover {
+    transform:translateY(-10px);
+    transition: .3s;
+    }
+
 .about-container a.primary-btn {
     width: 50%;
     text-align: center;

@@ -1,0 +1,21 @@
+---
+logo_and_title:
+  logo: "/uploads/realtyone-logo-new.png"
+  site_title: Realty One Group
+  favicon: "/uploads/favicon.png"
+home_slideshow:
+  slideshow:
+  - heading: Realty One Group
+    image: "/uploads/ss1.jpg"
+    link_text: Search the MLS
+    link: http://www.idxhome.com/homesearch/133408
+    subtitle: ''
+    hero_body: 25 Years of Real Estate Experience
+banner:
+  image: "/uploads/shutterstock_150649961.jpg"
+footer:
+  footer_logo: "/uploads/realtyone-logo-new.png"
+  footer_bio: Cervantes has 25 years of real estate experience and is nationally recognized
+    multi-cultural, bilingual, housing expert and skilled negotiator.  Cervantes is
+    available 24/7, executes on compressed time frames, provides thorough reports
+    and delivers to all her clients.

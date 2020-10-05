@@ -243,8 +243,8 @@ div.page-banner {
     background-color: transparent!important;
 }
 
-span.navbar-burger {
-    color: #000;
+span.navbar-burger span {
+    color: rgb(60, 60, 60);
 }
 
 .navbar-burger:hover {

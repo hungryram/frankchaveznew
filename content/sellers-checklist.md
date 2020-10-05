@@ -1,7 +1,7 @@
 +++
-meta_description = "Superior Real Estate Services provides valuable checklists before selling your home"
+meta_description = "Frank Chavez with Wallstreet Realty provides valuable checklists before selling your home"
 title = "Sellers Checklist"
-title_tag = "Sellers Checklist - Sandra Cervantes Realty One Group"
+title_tag = "Sellers Checklist - Frank Chavez with Wallstreet Realty"
 [menu.main]
 parent = "Sellers"
 weight = 2

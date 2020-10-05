@@ -1,7 +1,7 @@
 +++
-meta_description = "Learn about the process of an escrow with Sandra Cervantes"
+meta_description = "Learn about the process of an escrow with Frank Chavez"
 title = "Process of an Escrow"
-title_tag = "Process of an Escrow - Sandra Cervantes Realty One Group"
+title_tag = "Process of an Escrow - Frank Chavez with Wallstreet Realty"
 [menu.main]
 parent = "Resources"
 weight = 2

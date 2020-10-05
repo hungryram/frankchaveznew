@@ -12,5 +12,8 @@ fields:
     min: 
     max: 
     step: 
+- name: enable_idx
+  type: boolean
+  label: Enable IDX
 pages:
 - data/idx.yaml

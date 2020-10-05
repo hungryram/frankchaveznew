@@ -13,10 +13,10 @@ fields:
   template: seo
   label: SEO
 pages:
-- content/about.md
 - content/accessibility.md
 - content/first-time-buyer-information.md
 - content/mortgage-rate-information.md
+- content/privacy-policy.md
 - content/process-of-an-escrow.md
 - content/reasons-for-title-insurance.md
 - content/residential-terminology.md

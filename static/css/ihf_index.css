@@ -5,6 +5,10 @@ div#ihf-main-container .input-text, div#ihf-main-container input[type=input], di
     border-radius: 0px!important;
 }
 
+#ihf-main-container label, .ihf-main-container label {
+    color: #fff;
+}
+
 div#ihf-main-container .thumbnail {
     border: none;
     background-color: transparent;

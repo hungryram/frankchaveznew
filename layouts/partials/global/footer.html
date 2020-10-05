@@ -93,17 +93,18 @@
       </div>
       <div class="column has-text-centered">
         <ul>
-          <li class="is-inline-block mr-4"><a href="" class="has-text-white is-size-7">Privacy Policy</a></li>
-          <li class="is-inline-block mr-4"><a href="" class="has-text-white is-size-7">Accessibility</a></li>
-          <li class="is-inline-block mr-4"><a href="" class="has-text-white is-size-7">Privacy Policy</a></li>
+          <li class="is-inline-block mr-4"><a href="{{ .Site.BaseURL }}/privacy-policy" class="has-text-white is-size-7">Privacy Policy</a></li>
+          <li class="is-inline-block mr-4"><a href="{{ .Site.BaseURL }}/accessibility" class="has-text-white is-size-7">Accessibility</a></li>
         </ul>
       </div>
     </div>
   </div>
 </div>
 
+{{ if not $.IsHome }}
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+{{ end }}
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>

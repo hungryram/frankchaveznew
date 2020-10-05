@@ -1,21 +1,19 @@
 ---
 logo_and_title:
-  logo: "/uploads/realtyone-logo-new.png"
-  site_title: Realty One Group
-  favicon: "/uploads/favicon.png"
+  logo: "/uploads/cleanlogo.png"
+  site_title: Wallstreet Realty
+  favicon: "/uploads/logo-1.png"
 home_slideshow:
   slideshow:
-  - heading: Realty One Group
-    image: "/uploads/ss1.jpg"
-    link_text: Search the MLS
-    link: http://www.idxhome.com/homesearch/133408
+  - heading: FIND YOUR PERFECT HOME
+    image: "/uploads/shutterstock_325909925.jpg"
+    link_text: ''
+    link: ''
     subtitle: ''
-    hero_body: 25 Years of Real Estate Experience
+    hero_body: ''
 banner:
   image: "/uploads/shutterstock_150649961.jpg"
 footer:
-  footer_logo: "/uploads/realtyone-logo-new.png"
-  footer_bio: Cervantes has 25 years of real estate experience and is nationally recognized
-    multi-cultural, bilingual, housing expert and skilled negotiator.  Cervantes is
-    available 24/7, executes on compressed time frames, provides thorough reports
-    and delivers to all her clients.
+  footer_logo: "/uploads/cleanlogo.png"
+  footer_bio: The best real estate brokerage in Southern California. Reach out to
+    us to let us help you find your dream home!

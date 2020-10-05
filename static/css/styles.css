@@ -10,19 +10,31 @@ div.section {
     padding: 3rem 2rem;
 }
 
+div.big-section {
+    padding: 7rem 2rem;
+}
+
 main {
     padding-top: 50px;
     padding-bottom: 100px;
 }
 
-body p {
+body p,
+body a,
+.content a,
+.content p,
+strong,
+em,
+i,
+a,
+time {
     font-family: 'Roboto', sans-serif;
     line-height: 2;
     font-weight: 100;
 }
 
 div.content a {
-    color: #C69C6D;
+    color: #A01D10;
 }
 
 div.content.single-content p {
@@ -30,7 +42,7 @@ div.content.single-content p {
 }
 
 .primary-title {
-    border-bottom: 2px solid #C69C6D;
+    border-bottom: 2px solid #A01D10;
     padding-bottom: 10px;
 }
 
@@ -40,7 +52,7 @@ body h3.title,
 body h4.title,
 body h5.title,
 body h6.title {
-    font-family: 'PT Serif', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
  }
 
@@ -51,15 +63,15 @@ body h4.subtitle,
 body h5.subtitle,
 body h6.subtitle {
     font-family: 'Roboto', sans-serif;
-    color: #C69C6D;
+    color: #bfbfbf;
 }
 
 div.page-title h1 span {
-    color: #C69C6D;
+    color: #A01D10;
 }
 
 a.primary-btn {
-    background: #c69c6d;
+    background: #A01D10;
     color: white;
     padding: 10px 40px;
     white-space: pre-wrap;
@@ -67,6 +79,16 @@ a.primary-btn {
     word-break: break-all;
     white-space: normal;
     display:block;
+    width: 50%;
+}
+
+.lend-info li {
+    margin-top: 10px;
+}
+
+.lend-info a {
+    color: #A01D10;
+    padding: 10px 0;
 }
 
 /* FORMS */
@@ -78,7 +100,7 @@ textarea.textarea {
 }
 
 button.button {
-    background: #C69C6D;
+    background: #A01D10;
     width: 100%;
     border-radius: 0;
     border: 0;
@@ -116,11 +138,11 @@ textarea.textarea::placeholder {
 
 a.hero-button {
     color: #fff;
-    background: #C69C6D;
+    background: #A01D10;
     color: #fff;
     padding: 10px 40px;
     transition: all .3s ease;
-    border: 1px solid #C69C6D;
+    border: 1px solid #A01D10;
 
 }
 
@@ -128,7 +150,7 @@ a.hero-button:hover {
     color: #fff;
     transition: all .3s ease;
     background: transparent;
-    border: 1px solid #C69C6D;
+    border: 1px solid #A01D10;
 }
 
 /* .home-slide.slick-initialized.slick-slider,
@@ -257,12 +279,12 @@ a.navbar-link:not(.is-arrowless)::after {
 
 div a.navbar-item:hover {
     background: none;
-    color: #C69C6D;
+    color: #A01D10;
     transition: color .3s ease;
 }
 
 a.navbar-link:hover {
-    color: #C69C6D;
+    color: #A01D10;
 }
 
 .navbar-item.has-dropdown.is-active .navbar-link, .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link {
@@ -280,7 +302,7 @@ a.navbar-link:hover {
     }
     
     div.navbar-dropdown {
-        border-top: 2px solid #C69C6D;
+        border-top: 2px solid #A01D10;
     }
 }
 
@@ -370,14 +392,14 @@ div.featured-listing {
     width: 50px;
     height: 5px;
     content: "";
-    background: #C69C6D;
+    background: #A01D10;
 }
 
 .team-carousel button.slick-prev:before {
     content: "\00AB";
     font-size: 40px;
     font-weight: 900;
-    color: #C69C6D;
+    color: #A01D10;
     transition: all .3s ease;
     font-family: 'Font Awesome\ 5 Free';
 }
@@ -386,7 +408,7 @@ div.featured-listing {
     content: "\00BB";
     font-size: 40px;
     font-weight: 900;
-    color: #C69C6D;
+    color: #A01D10;
     transition: all .3s ease;
     font-family: 'Font Awesome\ 5 Free';
 }
@@ -430,7 +452,6 @@ div.team-border:after {
 
 .listing-bg {
     padding-top: 5%;
-    padding-bottom: 5%;
     background: #f3f3f3;
 }
 
@@ -439,7 +460,7 @@ div.team-border:after {
 }
 
 .featured-listing-content a {
-    color: #C69C6D;
+    color: #A01D10;
     transition: all .3s ease;
     font-style: italic;
 }
@@ -541,7 +562,7 @@ div.listing-detail-container .columns:not(:last-child) {
 }
 
 .single-price.title.is-4 {
-    color: #C69C6D;
+    color: #A01D10;
 }
 
 .detail-title {
@@ -558,7 +579,7 @@ div.listing-detail-container .columns:not(:last-child) {
 .detail-title:before {
     content: "";
     position: absolute;
-    background: #C69C6D;
+    background: #A01D10;
     width: 30px;
     height: 2px;
     left: 0px;
@@ -619,11 +640,11 @@ div.listing-agent-container {
 
 .listing-team-content a.readmore {
     font-style: italic;
-    color: #C69C6D;
+    color: #A01D10;
 }
 
 .listing-team-content h1.title.is-5 span {
-    color: #C69C6D;
+    color: #A01D10;
     font-size: 1rem;
 }
 
@@ -633,7 +654,7 @@ h1.title.more-prop {
 }
 
 h1.title.more-prop span {
-    color: #C69C6D;
+    color: #A01D10;
 }
 
 /* SINGLE TEAM PAGE */
@@ -655,10 +676,6 @@ div.agent-title-container a {
 
 /* HOME ABOUT */
 
-.about-container {
-    background: #232323;
-}
-
 .about-container a.primary-btn {
     width: 50%;
     text-align: center;
@@ -666,8 +683,8 @@ div.agent-title-container a {
 }
 
 .about-container a.primary-btn:hover {
-    border: 1px solid #C69C6D;
-    color: #fff;
+    border: 1px solid #A01D10;
+    color: #000;
     background: transparent;
     transition: all .3s ease;
 }
@@ -676,7 +693,7 @@ img.about-home-image {
     position: relative;
     z-index: 2;
     margin: 50px 0;
-    box-shadow: -10px 19px 25px 0px #070707;
+    box-shadow: 9px 10px 0px 0px #A01D10;
 }
 
 
@@ -685,7 +702,7 @@ img.about-home-image {
 }
 
 .featured-team-content a {
-    color: #C69C6D;
+    color: #A01D10;
     transition: all .3s ease;
     font-style: italic;
 }
@@ -752,12 +769,12 @@ div.blog-date h1 {
 a.blog-btn {
     transition: color .2s ease;
     font-style: italic;
-    color: #C69C6D;
+    color: #A01D10;
 }
 
 a.blog-btn:hover {
     transition: color .2s ease;
-    color: #C69C6D;
+    color: #A01D10;
 }
 
 div.blog-summary h6.subtitle.is-6 {
@@ -792,7 +809,7 @@ article.media+.media {
 
 .pagination li a {
     transition: all .3s ease;
-    color: #C69C6D;
+    color: #A01D10;
 }
 
 .pagination li:hover a {
@@ -849,16 +866,31 @@ form.contact-page textarea.textarea::placeholder {
 /* FOOTER */
 
 footer.footer {
-    background: #e9e9e9;
+    background: #161616;
 }
 
+ul.footer-social li {
+    display: inline-block;
+    margin: 10px;
+}
 
 footer.footer ul li a,
 footer.footer p,
 footer.footer a  {
-    color: #999999;
+    color: #fff;
 }
 
-.quicksearch a {
-    color: #C69C6D;
+div.bottom-footer {
+    background: #000;
+    color: #fff;
+}
+
+footer.footer ul li {
+    color: #ffff;
+}
+
+footer.footer i {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
 }

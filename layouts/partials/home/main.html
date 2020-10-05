@@ -11,26 +11,16 @@
   <div class="hero-body slide-content">
     <div class="container has-text-centered">
       <div class="columns">
-        <div class="column is-half has-text-white is-offset-one-quarter">
+        <div class="column is-three-fifths has-text-white is-offset-one-fifth quicksearch">
           <h1 class="title is-1 has-text-white is-size-3-mobile">{{ .heading }}</h1>
           <p class="mt-6">{{ .hero_body }}</p>
           <br>
           {{ if .link }}<a href="{{ .link }}" class="hero-button">{{ .link_text }}</a>{{ end }}
+          <script type="text/javascript" src="https://www.idxhome.com/site/listing/search/widget/{{ $.Site.Data.idx.ihomefinder_client_id }}?style=horizontal"></script>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- Hero footer: will stick at the bottom -->
-  <div class="section hero-foot">
-    <div class="container">
-      <div class="columns has-text-left has-text-white is-mobile is-vcentered">
-        <div class="column quicksearch">
-          <script type="text/javascript" src="https://www.idxhome.com/site/listing/search/widget/{{ $.Site.Data.idx.ihomefinder_client_id }}?style=horizontal"></script>
-        </div>
-      </div>
-      </div>
-      </div>
 
 </section>
 {{ end }}

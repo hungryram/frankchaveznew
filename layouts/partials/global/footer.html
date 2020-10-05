@@ -1,58 +1,109 @@
 {{ $footerContact := .Site.Data.profile.primary_contact }}
 {{ $footerDesign := .Site.Data.design.footer }}
 {{ $footerSocial := .Site.Data.profile.social_accounts }}
+{{ $location := .Site.Data.profile.location_information }}
+{{ $contact := .Site.Data.profile.primary_contact }}
 <footer class="footer">
 <div class="section">
   <div class="container">
     <div class="columns">
-      <div class="column is-4">
+      <div class="column is-three-fifths is-offset-one-fifth has-text-centered">
         {{ if $footerDesign.footer_logo }}
-          <img src="{{ $footerDesign.footer_logo | absURL }}" alt="{{ .Site.Data.profile.primary_company_name }}" width="150px" class="mb-5">
+          <img src="{{ $footerDesign.footer_logo | absURL }}" alt="{{ .Site.Data.profile.primary_company_name }}" class="mb-5">
         {{ else }}
         {{ end }}
         <h2 class="title is-6 mb-0 has-text-black"></h2>
-        <p>{{ $footerContact.license_type }} {{ $footerContact.license_number }}</p>
-        {{ if $footerDesign.footer_bio }}
-          <p class="pb-6">{{ $footerDesign.footer_bio }}</p>
-        {{ end }}
-        <img src="/uploads/nar.jpg" alt="">
-      </div>
-      <div class="column">
-        <h4 class="title is-6 has-text-black is-uppercase">Links</h4>
-        <ul>
-          <li><a href="{{ .Site.BaseURL }}">Home</a></li>
-          <li><a href="/listings">Listings</a></li>
-          <li><a href="/team">Team</a></li>
-          <li><a href="/status/sold">Sold</a></li>
-          <li><a href="/contact">Contact</a></li>
+        {{ $footerSocial := .Site.Data.profile.social_accounts }}
+        <ul class="footer-social">
+          {{ with $footerSocial.facebook }}
+          <li><a href="{{ . }}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></i></a></li>
+          {{end}}
+
+          {{ with $footerSocial.instagram }}
+          <li><a href="{{ . }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+          {{end}}
+
+          {{ with $footerSocial.yelp }}
+          <li><a href="{{ . }}" target="_blank" title="Yelp"><i class="fab fa-yelp"></i></a></li>
+          {{end}}
+
+          {{ with $footerSocial.linkedin }}
+          <li><a href="{{ . }}" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+          {{end}}
+
+          {{ with $footerSocial.pinterest }}
+          <li><a href="{{ . }}" target="_blank" title="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+          {{end}}
+
+          {{ with $footerSocial.twitter }}
+          <li><a href="{{ . }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+          {{end}}
+
+          {{ with $footerSocial.youtube }}
+          <li><a href="{{ . }}" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+          {{end}}
+
+          {{ with $footerSocial.realtor }}
+          <li><a href="{{ . }}" target="_blank" title="Realtor">Realtor</a></li>
+          {{end}}
+
+          {{ with $footerSocial.reddit }}
+          <li><a href="{{ . }}" target="_blank" title="Reddit">Reddit</a></li>
+          {{end}}
+
+          {{ with $footerSocial.redfin }}
+          <li><a href="{{ . }}" target="_blank" title="Redfin">Redfin</a></li>
+          {{end}}
+
+          {{ with $footerSocial.trulia }}
+          <li><a href="{{ . }}" target="_blank" title="Trulia">Trulia</a></li>
+          {{end}}
         </ul>
+        {{ if $footerDesign.footer_bio }}
+          <p>{{ $footerDesign.footer_bio }}</p>
+          <p>{{ $footerContact.license_type }} {{ $footerContact.license_number }}</p>
+
+        {{ end }}
       </div>
-      <div class="column">
-        <h4 class="title is-6 has-text-black is-uppercase">Contact</h4>
-            <p><a href="mailto:{{ $footerContact.email }}">{{ $footerContact.email }}</a></p>
-            <p><a href="tel:{{ $footerContact.phone }}">{{ $footerContact.phone }}</a></p>
-      </div>
+  </div>
+  <div class="columns has-text-centered pt-4">
+    <div class="column">
+      <ul>
+      {{ if $contact.email }}<li><i class="far fa-envelope"></i><a href="mailto:{{ $contact.email }}">{{ $contact.email }}</a></li> {{ end }}
+      </ul>
     </div>
+    <div class="column">
+      <ul>
+      {{ if $contact.phone }}<li><i class="fas fa-phone-alt"></i> <a href="tel:{{ $contact.phone }}">{{ $contact.phone }}</a></li> {{ end }}
+    </ul>
+    </div>
+    <div class="column">
+      <ul>
+      {{ if gt ( len $location.address ) 0 }}{{ if $location }}<li><i class="fas fa-map-marker-alt"></i>{{ $location.address }} {{ $location.city }} {{ $location.state }} {{ $location.zip_code }}</li> {{ end }}{{ end }}
+    </ul>
+    </div>
+  </div>
+</div>
+</footer>
+<div class="bottom-footer">
+  <div class="container">
     <div class="columns">
-      <div class="column has-text-centered-mobile">
-        <small>&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.primary_company_name }}</small> &middot; <a href="https://hungryram.com" target="_blank">Website Developed by Hungry Ram</a>
+      <div class="column has-text-centered">
+        <small class="is-size-7">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.primary_company_name }}</small> &middot; <a href="https://hungryram.com" target="_blank" class="has-text-white is-size-7">Website Developed by Hungry Ram</a>
       </div>
-      <div class="column has-text-centered-mobile">
+      <div class="column has-text-centered">
         <ul>
-          <li class="is-inline-block mr-4"><a href="">Privacy Policy</a></li>
-          <li class="is-inline-block mr-4"><a href="">Accessibility</a></li>
-          <li class="is-inline-block mr-4"><a href="">Privacy Policy</a></li>
+          <li class="is-inline-block mr-4"><a href="" class="has-text-white is-size-7">Privacy Policy</a></li>
+          <li class="is-inline-block mr-4"><a href="" class="has-text-white is-size-7">Accessibility</a></li>
+          <li class="is-inline-block mr-4"><a href="" class="has-text-white is-size-7">Privacy Policy</a></li>
         </ul>
       </div>
     </div>
   </div>
 </div>
-</footer>
 
-{{ if not $.IsHome }}
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-{{ end }}
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>

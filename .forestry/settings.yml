@@ -44,6 +44,10 @@ sections:
 - type: heading
   label: Default Pages
 - type: document
+  path: content/home-value-request/_index.md
+  label: Home Value Request
+  match: "**/*"
+- type: document
   path: content/about/_index.md
   label: About
   match: "**/*"

@@ -2,29 +2,6 @@ baseURL = "https://www.frankchavez.com/"
 languageCode = "en-us"
 summaryLength = 30
 [[menu.main]]
-name = "Featured Properties"
-parent = "Property Search"
-url = "https://frankchavez.idxhome.com/featured/140329"
-weight = 1
-[[menu.main]]
-name = "Login"
-url = "https://frankchavez.idxhome.com/homesearch/145641"
-weight = 8
-[[menu.main]]
-name = "Resources"
-weight = 5
-[[menu.main]]
-name = "Valuation Request"
-parent = "Sellers"
-url = "https://frankchavez.com/home-value-request"
-weight = 1
-[[menu.main]]
-name = "Sellers"
-weight = 4
-[[menu.main]]
-name = "Buyers"
-weight = 3
-[[menu.main]]
 name = "Open Homes"
 parent = "Property Search"
 url = "https://frankchavez.idxhome.com/openhomes/140329"
@@ -40,16 +17,39 @@ parent = "Property Search"
 url = "https://frankchavez.idxhome.com/homesearch/140329"
 weight = 2
 [[menu.main]]
-name = "Contact"
-url = "/contact"
-weight = 7
+name = "Valuation Request"
+parent = "Sellers"
+url = "https://frankchavez.com/home-value-request"
+weight = 1
 [[menu.main]]
-name = "Property Search"
-weight = 2
+name = "Featured Properties"
+parent = "Property Search"
+url = "https://frankchavez.idxhome.com/featured/140329"
+weight = 1
+[[menu.main]]
+name = "Login"
+url = "https://frankchavez.idxhome.com/homesearch/140329"
+weight = 7
 [[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
+[[menu.main]]
+name = "Property Search"
+weight = 2
+[[menu.main]]
+name = "Contact"
+url = "https://www.frankchavez.com/contact-form"
+weight = 6
+[[menu.main]]
+name = "Buyers"
+weight = 3
+[[menu.main]]
+name = "Sellers"
+weight = 4
+[[menu.main]]
+name = "Resources"
+weight = 5
 [taxonomies]
 category = "categories"
 tag = "tags"

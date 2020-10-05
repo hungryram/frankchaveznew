@@ -1,19 +1,19 @@
 ---
-primary_company_name: Superior Real Estate Services
+primary_company_name: Wallstreet Realty
 primary_contact:
-  full_name: Sandra Cervantes
-  title: Broker
+  full_name: Frank Chavez
+  title: Realtor
   mobile_phone: ''
-  email: Sandra@SandraCervantes.com
-  license_type: BRE License
-  license_number: '01191468'
-  phone: "(949) 283-2216"
+  email: realtorfrankchavez@gmail.com
+  license_type: License Number
+  license_number: '01956561'
+  phone: 714-865-6737
 social_accounts:
-  instagram: ''
-  facebook: ''
-  youtube: ''
-  twitter: ''
-  linkedin: ''
+  instagram: https://www.instagram.com/wallstreet_realty/
+  facebook: http://www.facebook.com/wallstreetrealty
+  youtube: https://www.youtube.com/channel/UCUfZFe5DjSONvViNVFBrsGA
+  twitter: http://www.twitter.com/wallstreetr
+  linkedin: https://www.linkedin.com/company/wallstreet-realty/
   pinterest: ''
   zillow: ''
   redfin: ''
@@ -24,7 +24,7 @@ search_engine_optimization:
   title_tag: Sandra Cervantes - Realty One group, Irvine CA
   meta_description: Search homes for sale in southern California by Sandra Cervantes
 location_information:
-  address: '4000 Barranca Parkway #250'
-  city: 'Irvine '
+  address: 7007 Washington Blvd Suite 211
+  city: Whittier
   state: California
-  zip_code: 92604
+  zip_code: 90602

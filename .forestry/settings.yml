@@ -46,15 +46,12 @@ sections:
 - type: document
   path: content/home-value-request/_index.md
   label: Home Value Request
-  match: "**/*"
 - type: document
   path: content/about/_index.md
   label: About
-  match: "**/*"
 - type: document
   path: content/contact/_index.md
   label: Contact
-  match: "**/*"
 - type: document
   path: data/pageconfig.yaml
   label: Page Config

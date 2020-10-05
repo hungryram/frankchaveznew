@@ -41,6 +41,16 @@ sections:
   match: "*"
   templates:
   - pages
+- type: heading
+  label: Default Pages
+- type: document
+  path: content/about/_index.md
+  label: About
+  match: "**/*"
+- type: document
+  path: content/contact/_index.md
+  label: Contact
+  match: "**/*"
 - type: document
   path: data/pageconfig.yaml
   label: Page Config

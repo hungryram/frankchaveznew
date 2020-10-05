@@ -18,4 +18,5 @@ fields:
   label: Meta Description
 pages:
 - content/about/_index.md
+- content/contact-form/_index.md
 - content/home-value-request/_index.md

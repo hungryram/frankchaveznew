@@ -3,23 +3,18 @@ team:
   subtitle: Let us help you
   heading: Our team of professionals
 agent_bio:
-  photo: "/uploads/foto-sandra-cervantes.jpg"
-  heading: Sandra Cervantes
+  photo: "/uploads/frankchavezwallstrealty-1.jpg"
+  heading: Frank Chavez
   subtitle: ''
   link: "/about"
-  body_text: Sandra Cervantes is a visionary with the business acumen to take a deal
-    from conception to fruition.  Ms. Cervantes is a highly successful real estate
-    business owner and investor with an uncanny ability to bring together the right
-    people in the right places at the right time.  She believes when convenience and
-    opportunity coincide – the synergy is infinite.  The National Association of Hispanic
-    Real Estate Professionals (NAHREP) has recognized Cervantes as one of the top
-    250 real estate professional in the nation.  She has worked in the field of housing
-    and community development throughout her career and is an advocate on home ownership
-    education and sustainability issues.
+  body_text: "Realtor in California, Frank Chavez began his Real Estate career by
+    working side by side with top agents with over 32 years + experience combined.
+    With experience and wisdom gained, Frank Chavez has built a strong referral base
+    as a result of his ability to generate extreme client satisfaction.\n\n"
   link_text: Read more
 featured_listing:
-  subtitle: Exlusive Homes
-  heading: Luxury Homes in Los Angeles
+  subtitle: Featured Listings
+  heading: View our most featured office listings by Wallstreet Realty.
 featured_section:
   link: http://www.idxhome.com/organizer/login/133408
   first_featured:

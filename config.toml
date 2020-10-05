@@ -4,7 +4,7 @@ summaryLength = 30
 [[menu.main]]
 name = "Email Alerts"
 parent = "Property Search"
-url = "http://frankchavez.idxhome.com/organizer/emailAlerts/140329"
+url = "https://frankchavez.idxhome.com/organizer/emailAlerts/140329"
 weight = 5
 [[menu.main]]
 name = "Open Homes"

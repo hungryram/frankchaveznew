@@ -58,7 +58,7 @@ div#ihf-main-container .glyphicon-chevron-left:before,
     font-size: 14px;
 }
 
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
     .section.hero-foot {
         display: none;
     }
@@ -67,5 +67,44 @@ div#ihf-main-container .glyphicon-chevron-left:before,
 @media screen and (max-width:768px){
     div.search {
         display: none;
+    }
+} */
+
+/* QUICKSEARCH */
+
+/* HOME QUICK SEARCH */
+#searchProfile > fieldset > div > div:nth-child(3),
+#searchProfile > fieldset > div > div:nth-child(4),
+#searchProfile > fieldset > div > div:nth-child(5),
+#searchProfile > fieldset > div > div:nth-child(6),
+#searchProfile > fieldset > div > div.col-xs-12.col-sm-1 > label,
+#searchProfile > fieldset > div > div.col-xs-12.col-sm-3 > label {
+    display: none;
+}
+
+div.search form#searchProfile {
+    display: flex;
+    justify-content: center;
+}
+
+div.search input#ihf-area-input {
+    width: 300px;
+    border-radius: 5px!important;
+    height: 40px;
+}
+
+div.search #ihf-main-container .btn-primary {
+    background-color: #a01d10;
+    border:none;
+}
+
+@media screen and (min-width:768px){
+    div.search #ihf-main-container .btn-primary {
+        position: absolute;
+        left: 200px;
+        padding-left: 20px;
+        padding-right: 35px;
+        padding-top:10px;
+        padding-bottom:10px;
     }
 }

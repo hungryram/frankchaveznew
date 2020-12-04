@@ -93,8 +93,9 @@
       </div>
       <div class="column has-text-centered">
         <ul>
-          <li class="is-inline-block mr-4"><a href="{{ .Site.BaseURL }}/privacy-policy" class="has-text-white is-size-7">Privacy Policy</a></li>
-          <li class="is-inline-block mr-4"><a href="{{ .Site.BaseURL }}/accessibility" class="has-text-white is-size-7">Accessibility</a></li>
+          {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
+          <li class="is-inline"><a href="{{ .Permalink | absURL }}" class="is-size-7 mx-2 has-text-white">{{ .Title }}</a></li>
+          {{ end }}
         </ul>
       </div>
     </div>

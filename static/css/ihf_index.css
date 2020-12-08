@@ -21,9 +21,10 @@
     top: 8px;
 }
 
-.search label.field-label {
+/* .search label.field-label {
     display: none!important;
-}
+} */
+
 
 @media screen and (max-width:768px){
     .desktop-search {

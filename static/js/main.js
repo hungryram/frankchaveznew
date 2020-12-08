@@ -1,3 +1,5 @@
+// HOME SEARCH
+
 
 $('.listing-carousel').slick({
   dots: false,

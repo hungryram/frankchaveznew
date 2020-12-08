@@ -1,3 +1,48 @@
+/* NEW QUICK SEARCH */
+
+.search #ihf-main-container .col-lg-1, .search #ihf-main-container .col-lg-10, .search #ihf-main-container .col-lg-11, .search #ihf-main-container .col-lg-12, .search #ihf-main-container .col-lg-2, .search #ihf-main-container .col-lg-3, .search #ihf-main-container .col-lg-4, .search #ihf-main-container .col-lg-5, .search #ihf-main-container .col-lg-6, .search #ihf-main-container .col-lg-7, .search #ihf-main-container .col-lg-8, .search #ihf-main-container .col-lg-9, .search #ihf-main-container .col-md-1, .search #ihf-main-container .col-md-10, .search #ihf-main-container .col-md-11, .search #ihf-main-container .col-md-12, .search #ihf-main-container .col-md-2, .search #ihf-main-container .col-md-3, .search #ihf-main-container .col-md-4, .search #ihf-main-container .col-md-5, .search #ihf-main-container .col-md-6, .search #ihf-main-container .col-md-7, .search #ihf-main-container .col-md-8, .search #ihf-main-container .col-md-9, .search #ihf-main-container .col-sm-1, .search #ihf-main-container .col-sm-10, .search #ihf-main-container .col-sm-11, .search #ihf-main-container .col-sm-12, .search #ihf-main-container .col-sm-2, .search #ihf-main-container .col-sm-3, .search #ihf-main-container .col-sm-4, .search #ihf-main-container .col-sm-5, .search #ihf-main-container .col-sm-6, .search #ihf-main-container .col-sm-7, .search #ihf-main-container .col-sm-8, .search #ihf-main-container .col-sm-9, .search #ihf-main-container .col-xs-1, .search #ihf-main-container .col-xs-10, .search #ihf-main-container .col-xs-11, .search #ihf-main-container .col-xs-12, .search #ihf-main-container .col-xs-2, .search #ihf-main-container .col-xs-3, .search #ihf-main-container .col-xs-4, .search #ihf-main-container .col-xs-5, .search #ihf-main-container .col-xs-6, .search #ihf-main-container .col-xs-7, .search #ihf-main-container .col-xs-8, .search #ihf-main-container .col-xs-9 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.search #ihf-main-container .form-control,
+.search #ihf-main-container .chosen-container-single .chosen-single, .search .ihf-main-container .chosen-container-single .chosen-single {
+    height: 50px;
+    border: 1px solid #eaeaea;
+    display: flex;
+    align-items: center;
+}
+
+.search .ihf-label-overlay-money {
+    top: 13px;
+}
+
+.search .chosen-container-single .chosen-single div {
+    top: 8px;
+}
+
+.search label.field-label {
+    display: none!important;
+}
+
+@media screen and (max-width:768px){
+    .desktop-search {
+        display: none;
+    }
+
+    
+
+    .search #ihf-main-container .col-lg-1, .search #ihf-main-container .col-lg-10, .search #ihf-main-container .col-lg-11, .search #ihf-main-container .col-lg-12, .search #ihf-main-container .col-lg-2, .search #ihf-main-container .col-lg-3, .search #ihf-main-container .col-lg-4, .search #ihf-main-container .col-lg-5, .search #ihf-main-container .col-lg-6, .search #ihf-main-container .col-lg-7, .search #ihf-main-container .col-lg-8, .search #ihf-main-container .col-lg-9, .search #ihf-main-container .col-md-1, .search #ihf-main-container .col-md-10, .search #ihf-main-container .col-md-11, .search #ihf-main-container .col-md-12, .search #ihf-main-container .col-md-2, .search #ihf-main-container .col-md-3, .search #ihf-main-container .col-md-4, .search #ihf-main-container .col-md-5, .search #ihf-main-container .col-md-6, .search #ihf-main-container .col-md-7, .search #ihf-main-container .col-md-8, .search #ihf-main-container .col-md-9, .search #ihf-main-container .col-sm-1, .search #ihf-main-container .col-sm-10, .search #ihf-main-container .col-sm-11, .search #ihf-main-container .col-sm-12, .search #ihf-main-container .col-sm-2, .search #ihf-main-container .col-sm-3, .search #ihf-main-container .col-sm-4, .search #ihf-main-container .col-sm-5, .search #ihf-main-container .col-sm-6, .search #ihf-main-container .col-sm-7, .search #ihf-main-container .col-sm-8, .search #ihf-main-container .col-sm-9, .search #ihf-main-container .col-xs-1, .search #ihf-main-container .col-xs-10, .search #ihf-main-container .col-xs-11, .search #ihf-main-container .col-xs-12, .search #ihf-main-container .col-xs-2, .search #ihf-main-container .col-xs-3, .search #ihf-main-container .col-xs-4, .search #ihf-main-container .col-xs-5, .search #ihf-main-container .col-xs-6, .search #ihf-main-container .col-xs-7, .search #ihf-main-container .col-xs-8, .search #ihf-main-container .col-xs-9 {
+        margin: 5px 0px;
+    }
+}
+
+@media screen and (min-width:1152px){
+    div.mobile-search {
+        display: none;
+    }
+}
+
 /* IDX HOME SCROLL */
 
 div#ihf-main-container .input-text, div#ihf-main-container input[type=input], div#ihf-main-container input[type=text],
@@ -73,15 +118,15 @@ div#ihf-main-container .glyphicon-chevron-left:before,
 /* QUICKSEARCH */
 
 /* HOME QUICK SEARCH */
-#searchProfile > fieldset > div > div:nth-child(3),
+/* #searchProfile > fieldset > div > div:nth-child(3),
 #searchProfile > fieldset > div > div:nth-child(4),
 #searchProfile > fieldset > div > div:nth-child(5),
 #searchProfile > fieldset > div > div:nth-child(6),
 #searchProfile > fieldset > div > div.col-xs-12.col-sm-1 > label,
 #searchProfile > fieldset > div > div.col-xs-12.col-sm-3 > label {
     display: none;
-}
-
+} */
+/* 
 div.search form#searchProfile {
     display: flex;
     justify-content: center;
@@ -91,14 +136,16 @@ div.search input#ihf-area-input {
     width: 300px;
     border-radius: 5px!important;
     height: 40px;
-}
+} */
 
 div.search #ihf-main-container .btn-primary {
     background-color: #a01d10;
     border:none;
+    height: 50px;
+    border-radius: 0;
 }
 
-@media screen and (min-width:768px){
+/* @media screen and (min-width:768px){
     div.search #ihf-main-container .btn-primary {
         position: absolute;
         left: 200px;
@@ -107,4 +154,4 @@ div.search #ihf-main-container .btn-primary {
         padding-top:10px;
         padding-bottom:10px;
     }
-}
+} */

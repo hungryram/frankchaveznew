@@ -31,6 +31,10 @@
         display: none;
     }
 
+    .mobile-search #ihf-main-container label, .ihf-main-container label {
+        color: #222;
+    }
+
     .search #ihf-main-container .col-lg-1, .search #ihf-main-container .col-lg-10, .search #ihf-main-container .col-lg-11, .search #ihf-main-container .col-lg-12, .search #ihf-main-container .col-lg-2, .search #ihf-main-container .col-lg-3, .search #ihf-main-container .col-lg-4, .search #ihf-main-container .col-lg-5, .search #ihf-main-container .col-lg-6, .search #ihf-main-container .col-lg-7, .search #ihf-main-container .col-lg-8, .search #ihf-main-container .col-lg-9, .search #ihf-main-container .col-md-1, .search #ihf-main-container .col-md-10, .search #ihf-main-container .col-md-11, .search #ihf-main-container .col-md-12, .search #ihf-main-container .col-md-2, .search #ihf-main-container .col-md-3, .search #ihf-main-container .col-md-4, .search #ihf-main-container .col-md-5, .search #ihf-main-container .col-md-6, .search #ihf-main-container .col-md-7, .search #ihf-main-container .col-md-8, .search #ihf-main-container .col-md-9, .search #ihf-main-container .col-sm-1, .search #ihf-main-container .col-sm-10, .search #ihf-main-container .col-sm-11, .search #ihf-main-container .col-sm-12, .search #ihf-main-container .col-sm-2, .search #ihf-main-container .col-sm-3, .search #ihf-main-container .col-sm-4, .search #ihf-main-container .col-sm-5, .search #ihf-main-container .col-sm-6, .search #ihf-main-container .col-sm-7, .search #ihf-main-container .col-sm-8, .search #ihf-main-container .col-sm-9, .search #ihf-main-container .col-xs-1, .search #ihf-main-container .col-xs-10, .search #ihf-main-container .col-xs-11, .search #ihf-main-container .col-xs-12, .search #ihf-main-container .col-xs-2, .search #ihf-main-container .col-xs-3, .search #ihf-main-container .col-xs-4, .search #ihf-main-container .col-xs-5, .search #ihf-main-container .col-xs-6, .search #ihf-main-container .col-xs-7, .search #ihf-main-container .col-xs-8, .search #ihf-main-container .col-xs-9 {
         margin: 5px 0px;
     }

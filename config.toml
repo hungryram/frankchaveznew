@@ -4,27 +4,27 @@ summaryLength = 30
 [[menu.main]]
 name = "Email Alerts"
 parent = "Property Search"
-url = "https://frankchavez.idxhome.com/organizer/emailAlerts/140329"
+url = "https://search.frankchavez.com//organizer/emailAlerts/140329"
 weight = 5
 [[menu.main]]
 name = "Open Homes"
 parent = "Property Search"
-url = "https://frankchavez.idxhome.com/openhomes/140329"
+url = "https://search.frankchavez.com//openhomes/140329"
 weight = 4
 [[menu.main]]
 name = "Advanced Search"
 parent = "Property Search"
-url = "https://frankchavez.idxhome.com/listing/search/advanced/140329/"
+url = "https://search.frankchavez.com//listing/search/advanced/140329/"
 weight = 3
 [[menu.main]]
 name = "Search"
 parent = "Property Search"
-url = "https://frankchavez.idxhome.com/homesearch/140329"
+url = "https://search.frankchavez.com//homesearch/140329"
 weight = 2
 [[menu.main]]
 name = "Featured Properties"
 parent = "Property Search"
-url = "https://frankchavez.idxhome.com/featured/140329"
+url = "https://search.frankchavez.com//featured/140329"
 weight = 1
 [[menu.main]]
 name = "Valuation Request"
@@ -33,7 +33,7 @@ url = "https://frankchavez.com/home-value-request"
 weight = 1
 [[menu.main]]
 name = "Login"
-url = "https://frankchavez.idxhome.com/organizer/login/140329"
+url = "https://search.frankchavez.com//organizer/login/140329"
 weight = 7
 [[menu.main]]
 name = "Home"

@@ -43,7 +43,7 @@ time {
 }
 
 div.content a {
-    color: #A01D10;
+    color: #B7AE8B;
 }
 
 div.content.single-content p {
@@ -51,7 +51,7 @@ div.content.single-content p {
 }
 
 .primary-title {
-    border-bottom: 2px solid #A01D10;
+    border-bottom: 2px solid #B7AE8B;
     padding-bottom: 10px;
 }
 
@@ -76,11 +76,11 @@ body h6.subtitle {
 }
 
 div.page-title h1 span {
-    color: #A01D10;
+    color: #B7AE8B;
 }
 
 a.primary-btn {
-    background: #A01D10;
+    background: #B7AE8B;
     color: white;
     padding: 10px 40px;
     white-space: pre-wrap;
@@ -95,7 +95,7 @@ a.primary-btn {
 }
 
 .lend-info a {
-    color: #A01D10;
+    color: #B7AE8B;
     padding: 10px 0;
 }
 
@@ -108,7 +108,7 @@ textarea.textarea {
 }
 
 button.button {
-    background: #A01D10;
+    background: #B7AE8B;
     width: 100%;
     border-radius: 0;
     border: 0;
@@ -146,11 +146,11 @@ textarea.textarea::placeholder {
 
 a.hero-button {
     color: #fff;
-    background: #A01D10;
+    background: #B7AE8B;
     color: #fff;
     padding: 10px 40px;
     transition: all .3s ease;
-    border: 1px solid #A01D10;
+    border: 1px solid #B7AE8B;
 
 }
 
@@ -158,7 +158,7 @@ a.hero-button:hover {
     color: #fff;
     transition: all .3s ease;
     background: transparent;
-    border: 1px solid #A01D10;
+    border: 1px solid #B7AE8B;
 }
 
 /* .home-slide.slick-initialized.slick-slider,
@@ -264,12 +264,12 @@ nav.navbar {
 
 a.navbar-item img {
     max-height: none;
-    width: 150px;
+    width: 200px;
 }
 
 a.navbar-item,
 a.navbar-link {
-    color: #000;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     transition: color .3s ease;
@@ -282,17 +282,17 @@ div.navbar-dropdown {
 }
 
 a.navbar-link:not(.is-arrowless)::after {
-    border-color: #000;
+    border-color: #fff;
 }
 
 div a.navbar-item:hover {
     background: none;
-    color: #A01D10;
+    color: #B7AE8B;
     transition: color .3s ease;
 }
 
 a.navbar-link:hover {
-    color: #A01D10;
+    color: #B7AE8B;
 }
 
 .navbar-item.has-dropdown.is-active .navbar-link, .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link {
@@ -310,7 +310,7 @@ a.navbar-link:hover {
     }
     
     div.navbar-dropdown {
-        border-top: 2px solid #A01D10;
+        border-top: 2px solid #B7AE8B;
     }
 }
 
@@ -400,14 +400,14 @@ div.featured-listing {
     width: 50px;
     height: 5px;
     content: "";
-    background: #A01D10;
+    background: #B7AE8B;
 }
 
 .team-carousel button.slick-prev:before {
     content: "\00AB";
     font-size: 40px;
     font-weight: 900;
-    color: #A01D10;
+    color: #B7AE8B;
     transition: all .3s ease;
     font-family: 'Font Awesome\ 5 Free';
 }
@@ -416,7 +416,7 @@ div.featured-listing {
     content: "\00BB";
     font-size: 40px;
     font-weight: 900;
-    color: #A01D10;
+    color: #B7AE8B;
     transition: all .3s ease;
     font-family: 'Font Awesome\ 5 Free';
 }
@@ -468,7 +468,7 @@ div.team-border:after {
 }
 
 .featured-listing-content a {
-    color: #A01D10;
+    color: #B7AE8B;
     transition: all .3s ease;
     font-style: italic;
 }
@@ -570,7 +570,7 @@ div.listing-detail-container .columns:not(:last-child) {
 }
 
 .single-price.title.is-4 {
-    color: #A01D10;
+    color: #B7AE8B;
 }
 
 .detail-title {
@@ -587,7 +587,7 @@ div.listing-detail-container .columns:not(:last-child) {
 .detail-title:before {
     content: "";
     position: absolute;
-    background: #A01D10;
+    background: #B7AE8B;
     width: 30px;
     height: 2px;
     left: 0px;
@@ -648,11 +648,11 @@ div.listing-agent-container {
 
 .listing-team-content a.readmore {
     font-style: italic;
-    color: #A01D10;
+    color: #B7AE8B;
 }
 
 .listing-team-content h1.title.is-5 span {
-    color: #A01D10;
+    color: #B7AE8B;
     font-size: 1rem;
 }
 
@@ -662,7 +662,7 @@ h1.title.more-prop {
 }
 
 h1.title.more-prop span {
-    color: #A01D10;
+    color: #B7AE8B;
 }
 
 /* SINGLE TEAM PAGE */
@@ -700,7 +700,7 @@ div.agent-title-container a {
 }
 
 .about-container a.primary-btn:hover {
-    border: 1px solid #A01D10;
+    border: 1px solid #B7AE8B;
     color: #000;
     background: transparent;
     transition: all .3s ease;
@@ -710,7 +710,7 @@ img.about-home-image {
     position: relative;
     z-index: 2;
     margin: 50px 0;
-    box-shadow: 9px 10px 0px 0px #A01D10;
+    box-shadow: 9px 10px 0px 0px #B7AE8B;
 }
 
 
@@ -719,7 +719,7 @@ img.about-home-image {
 }
 
 .featured-team-content a {
-    color: #A01D10;
+    color: #B7AE8B;
     transition: all .3s ease;
     font-style: italic;
 }
@@ -786,12 +786,12 @@ div.blog-date h1 {
 a.blog-btn {
     transition: color .2s ease;
     font-style: italic;
-    color: #A01D10;
+    color: #B7AE8B;
 }
 
 a.blog-btn:hover {
     transition: color .2s ease;
-    color: #A01D10;
+    color: #B7AE8B;
 }
 
 div.blog-summary h6.subtitle.is-6 {
@@ -826,7 +826,7 @@ article.media+.media {
 
 .pagination li a {
     transition: all .3s ease;
-    color: #A01D10;
+    color: #B7AE8B;
 }
 
 .pagination li:hover a {

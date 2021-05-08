@@ -1,5 +1,5 @@
 ---
-primary_company_name: Wallstreet Realty
+primary_company_name: Century21 Allstars
 primary_contact:
   full_name: Frank Chavez
   title: Realtor
@@ -9,11 +9,11 @@ primary_contact:
   license_number: '01956561'
   phone: 714-865-6737
 social_accounts:
-  instagram: https://www.instagram.com/wallstreet_realty/
-  facebook: http://www.facebook.com/wallstreetrealty
-  youtube: https://www.youtube.com/channel/UCUfZFe5DjSONvViNVFBrsGA
-  twitter: http://www.twitter.com/wallstreetr
-  linkedin: https://www.linkedin.com/company/wallstreet-realty/
+  instagram: ''
+  facebook: ''
+  youtube: ''
+  twitter: ''
+  linkedin: ''
   pinterest: ''
   zillow: ''
   redfin: ''
@@ -25,7 +25,7 @@ search_engine_optimization:
   meta_description: Search homes for sale in southern California by Frank Chavez with
     Wallstreet Realty
 location_information:
-  address: 7007 Washington Blvd Suite 211
-  city: Whittier
+  address: 9155 Telegraph Rd.
+  city: " Pico Rivera"
   state: California
-  zip_code: 90602
+  zip_code: 90660

@@ -1,7 +1,7 @@
 +++
 meta_description = "To the unfamiliar, it can often confuse and bewilder. Fannie Mae and Freddie Mac. ARMS and APR. Clear title and Clouded title. Though these terms have special meaning to real estate professionals, they may often be meaningless to the consumer."
 title = "Title Escrow Mortgage Terminology"
-title_tag = "Title Escrow Mortgage Terminology - Frank Chavez with Wallstreet Realty"
+title_tag = "Title Escrow Mortgage Terminology - Frank Chavez with Century21 Allstars"
 [menu.main]
 name = "Title, Escrow & Mortgage Terminology"
 parent = "Resources"

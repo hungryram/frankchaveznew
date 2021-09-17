@@ -1,6 +1,7 @@
 baseURL = "https://www.frankchavez.com/"
 languageCode = "en-us"
 summaryLength = 30
+disableKinds = ["taxonomy", "taxonomyTerm"]
 [[menu.main]]
 name = "Email Alerts"
 parent = "Property Search"
@@ -55,6 +56,3 @@ weight = 4
 [[menu.main]]
 name = "Resources"
 weight = 5
-[taxonomies]
-category = "categories"
-tag = "tags"

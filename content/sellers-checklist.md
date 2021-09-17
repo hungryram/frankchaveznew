@@ -1,7 +1,7 @@
 +++
-meta_description = "Frank Chavez with Wallstreet Realty provides valuable checklists before selling your home"
+meta_description = "Frank Chavez with Century21 Allstars provides valuable checklists before selling your home"
 title = "Sellers Checklist"
-title_tag = "Sellers Checklist - Frank Chavez with Wallstreet Realty"
+title_tag = "Sellers Checklist - Frank Chavez with Century21 Allstars"
 [menu.main]
 parent = "Sellers"
 weight = 2

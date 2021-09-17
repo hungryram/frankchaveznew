@@ -1,7 +1,7 @@
 +++
 meta_description = "To learn about Public and Private Schools in your neighborhood I recommend the below two websites. Click on either logo to be redirected to the website and start researching."
 title = "School Ratings Information"
-title_tag = "School Ratings - Frank Chavez with Wallstreet Realty"
+title_tag = "School Ratings - Frank Chavez with Century21 Allstars"
 [menu.main]
 name = "School Rating Information"
 parent = "Buyers"

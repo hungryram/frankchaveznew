@@ -1,7 +1,7 @@
 +++
-meta_description = "Learn about residential terminology here with Sandra Cervantes Realty One Group"
+meta_description = "Learn about residential terminology here with Century21 Allstars"
 title = "Residential Terminology"
-title_tag = "Residential Terminology - Frank Chavez with Wallstreet Realty"
+title_tag = "Residential Terminology - Frank Chavez with Century21 Allstars"
 [menu.main]
 parent = "Resources"
 weight = 1

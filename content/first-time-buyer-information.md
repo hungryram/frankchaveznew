@@ -1,7 +1,7 @@
 +++
 meta_description = "While knowing how much you can afford is the first step, sellers will be much more receptive to potential buyers who have been pre-approved. You also will avoid being disappointed when going after the homes you are interested in that may be out of your price range."
 title = "First Time Buyer Information"
-title_tag = "First Time Buyer Information - Frank Chavez with Wallstreet Realty"
+title_tag = "First Time Buyer Information - Frank Chavez with Century21 Allstars"
 [menu.main]
 parent = "Buyers"
 weight = 2

@@ -1,7 +1,7 @@
 +++
 meta_description = "Title Insurance will protect you against a loss on your home or land due to a title defect. A deed or mortgage in the chain of title may be a forgery."
 title = "Reasons for Title Insurance"
-title_tag = "Reasons for Title Insurance - Frank Chavez with Wallstreet Realty"
+title_tag = "Reasons for Title Insurance - Frank Chavez with Century21 Allstars"
 [menu.main]
 parent = "Resources"
 weight = 6
